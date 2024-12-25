@@ -3,16 +3,16 @@ class Person {
     age: number
 
     constructor(name: string, age: string) {
-        this.Name = name
+        this.name = name
         this.age = age
     }
 
     getName(): string {
-        return this.Name
+        return this.name
     }
 
     getAge(): number {
-        return age
+        return this.age
     }
 }
 
